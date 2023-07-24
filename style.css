@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* ============================ */
+/* ==== Header_Area_CSS === */
+/* =========================== */
+
+.container {
+    display: flex;
+    padding: 40px 80px;
+    gap: 40px;
+}
+
+.header-text {
+    width: 628px;
+    margin-top: 30px;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-dese {
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.header-btn {
+    padding: 10px 30px;
+    background: linear-gradient(45deg, #FF8938, #FF0000);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-photo {
+    margin-top: 60px;
+    position: relative;
+}
+
+.trust-ratings {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px 20px #1C1C1C;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    bottom: 40px;
+    left: 100px;
+}
+
+.icons .icon {
+    height: 40px;
+    width: 40px;
+    color: #FFDC64;
+}
+
+.trust-title .title {
+    font-size: 30px;
+    color: #1C1C1C;
+    margin-bottom: 10px;
+}
+
+.trust-para {
+    color: #777777;
+}
+
+/* ======================================== */
+/* ==== Our  Feature Products_CSS === */
+/* ======================================= */
+
+.ourfeaturedproducts-section {
+    padding: 40px 80px;
+}
+
+.featureproducts-text {
+    text-align: center;
+}
+
+.featureText-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1C1C1C;
+}
+
+.featureText-para {
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.featureproducts-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards-item {
+    background-color: #f3eeee;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cards-item img {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-para {
+    color: #777777;
+}
+
+/* ======================================== */
+/* ==== Great Tea Presented_CSS === */
+/* ======================================= */
+
+.greatteapresented-section {
+    padding: 40px 80px;
+}
+
+.greatteapresented {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.greattea-photos {
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  gap: 25px;
+}
+
+.large1-item {
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ffc0cb, rgba(255, 192, 203, 0.2) );
+}
+
+.top1-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 35px;
+    background: linear-gradient(60deg, #ffc0cb, rgba(255, 179, 191, 0.2));
+}
+
+.top2-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 35px;
+    background: linear-gradient(45deg, #ebffd8,rgba(216, 255, 177, 0.2));
+    margin-top: -240px;
+}
+
+.large2-item {
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    background:  linear-gradient(45deg, #ebffd8,rgba(216, 255, 177, 0.2));
+}
+.greattea-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+.greattea-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.greattea-item {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+
+.greattea-dese {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+/* ======================================== */
+/* ==== Meet Our Super _CSS === */
+/* ======================================= */
+
+.meetoursuperclients-section {
+    padding: 50px 70px;
+}
+
+.oursuperclients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    padding: 70px 50px;
+    border-radius: 10px;
+    background: linear-gradient(60deg, #FF8938, #FF0000);
+}
+
+.oursuperclients-text {
+    width: 70%;
+}
+
+.oursuperclient-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F4F4F4;
+    margin-bottom: 20px;
+}
+
+.oursuperclient-para {
+    color: #F4F4F4;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.client-btn {
+    padding: 10px 15px;
+    border: none;
+    color: #FF0000;
+    border-radius: 5px;
+}
+
+.oursuperclients-photos {
+    position: relative;
+}
+
+.oursuperclients-photo {
+    position: relative;
+    width: 90%;
+    background-color: #FFFFFF;
+    margin-bottom: 35px;
+    padding: 35px;
+    border-radius: 7px;
+    opacity: 50%;
+}
+
+.oursuperclients-photo .client {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.client-para {
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.client-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1C1C1C;
+}
+
+.client-dese {
+    color: #777777;
+}
+
+
+.ourclient {
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    left: -120px;
+    opacity: 1;
+}
+
+/* ======================================== */
+/* ==== News & Events_CSS === */
+/* ======================================= */
+
+.newsandevents-section {
+    padding: 40px 80px;
+}
+
+.newsandevent-text {
+    text-align: center;
+}
+
+.newsandevent-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1C1C1C;
+}
+
+.newsandevent-para {
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.collecting-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collecting-card {
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #777777;
+}
+
+.collecting-card img {
+    margin-bottom: 10px;
+}
+
+.card-date {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.collecting-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1C1C1C;
+}
+
+.collecting-para {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.collecting-card h4 {
+    color: #1C1C1C;
+    font-weight: 700;
+}
+
+/* ======================================== */
+/* ==== Footer-Area_CSS === */
+/* ======================================= */
+.footer-area {
+    padding: 100px 80px;
+    background-color: #ffc0cb;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-para {
+    font-size: 15px;
+    color: #1C1C1C;
+}
+
+.subscriber-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subscribe-item {
+    list-style: none;
+}
+
+.subscribe-item li {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-area input {
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    border-bottom: 1px solid #1C1C1C;
+    background: none;
+}
+
+.input-area input::placeholder {
+    color: #494949;
+}
+
+.chevron {
+    width: 20px;
+    height: 20px;
+    background-color: #f51a1ae0;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.icon-f {
+    color: #494949;
+}
+
+.footer-dese {
+    font-size: 16px;
+    margin-top: 60px;
+    text-align: center;
+    color: #494949;
+}
+
+
+/* Responsive_CSS */
+
+@media only screen and (max-width:768px)  {
+    .container {
+        flex-direction: column;
+    }
+
+    .featureproducts-text {
+        text-align: center;
+    }
+
+    .featureproducts-card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cards-item {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .greatteapresented {
+        flex-direction: column;
+    }
+    .greattea-photos {
+        display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+
+    .top2-item {
+        margin-top: 0px;
+    }
+
+    .oursuperclients {
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .oursuperclients-photos {
+        flex-direction: column;
+    }
+
+    .oursuperclients-photo {
+        width: 100%;
+        flex-direction: column;
+        opacity: 1;
+        margin-bottom: 60px;
+    }
+
+    .ourclient {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+   .collecting-items {
+    flex-direction: column;
+   }
+
+   .collecting-card {
+    width: 100%;
+    height: auto;
+   }
+
+   .main-item {
+    flex-direction: column;
+    
+   }
+
+   .footer-text {
+    flex-direction: column;
+   }
+
+   .subscriber-item {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+
+}
